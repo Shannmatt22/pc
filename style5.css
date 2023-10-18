@@ -1,0 +1,52 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ #header {
+    background-color:lightgreen;
+    text-align: center;
+    padding: 20px;
+ }
+
+ #sidebar{
+    width: 25%;
+    float: left;
+ }
+
+ #content {
+    width: 75%;   
+    float: right;
+    padding: 10px;
+ }
+
+ #footer {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+ }
+
+ h2 {
+    margin-bottom: 15px;
+ }
+ img {
+    float: right;
+    border-radius: 20px;
+ }
+ ul {
+    list-style-type: none;
+    background-color: aliceblue;
+ }
+
+ li {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+ }
+
+ li:hover {
+    background-color: #555;
+    color: white;
+ }
