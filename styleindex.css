@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -31,6 +32,20 @@ nav ul li:hover {
 #main-container {
     display: flex;
     justify-content: space-around;
+}
+
+#main-container div {
+    width: 30%;
+}
+
+main img {
+    width: 100%;
+}
+
+#main-container div img {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 footer {
